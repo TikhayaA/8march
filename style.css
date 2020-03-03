@@ -1,0 +1,443 @@
+@font-face {
+	font-family: 'Circle regular';
+	src: url('Circe-Regular.eot');
+	src: local('fonts/circe/Circe'), local('Circe-Regular'),
+		url('fonts/circe/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/circe/Circe-Regular.woff') format('woff'),
+		url('fonts/circe/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Savoye"; 
+    src: url('fonts/Savoye.ttf');
+}
+main{
+    font-family: "Circle regular"; 
+    font-size: 24px;
+    color: #000000;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.bg-banner{
+    background: url('image/Rectangle1.png');
+    justify-content: space-around;
+    padding: 55px 0;
+    background: linear-gradient(245.87deg, rgba(185, 60, 88, 0.29) 2.35%, rgba(145, 188, 85, 0.53) 84.79%);
+    
+}
+.wrap-banner-block-content{
+    margin: auto;
+    max-width: 1440px;
+}
+.banner-block-content{
+    width: 60%;
+    padding: 0 0 0 106px;
+    position: relative;
+}
+.block-content-pos-first{
+    position: absolute;
+    left: 19px;
+    bottom: -182px;
+}
+.block-content-pos-second{
+    position: absolute;
+    left: 194px;
+    top: 225px;
+}
+.block-content-pos-third{
+    position: absolute;
+    left: 19px;
+    top: 170px;
+}
+.block-content-pos-fourth{
+    position: absolute;
+    left: 148px;
+    top: -71px;
+}
+.banner-block-img{
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+h1{
+    font-size: 96px;
+    color: #000000;
+    font-family: "Savoye";
+    line-height: 58px;
+}
+h1 span{
+    font-size: 36px;
+    font-family: "Circle regular"; 
+    font-weight: bold;
+}
+.block-content-wrap{
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 36px;
+    color: #DE6697;
+}
+.block-content-wrap p{
+    font-size: 17px;
+    color: #000000;
+    margin-top: 20px;
+}
+.block-content-img{
+    margin-left: -16px;
+}
+.banner-block-img :nth-child(1){
+    z-index: 2;
+    position: absolute;
+    left: 67px;
+}
+.banner-block-img :nth-child(2){
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    z-index: -1;
+}
+.banner-block-img :nth-child(3){
+    position: absolute;
+    bottom: -99px;
+    right: 16px;
+    z-index: 2;
+}
+.banner-block-img :nth-child(4){
+    position: absolute;
+    top: 140px;
+    left: -53px;
+}
+.banner-block-img :nth-child(5){
+    position: absolute;
+    top: 345px;
+    left: -60px;
+}
+.banner-block-img :nth-child(6){
+    position: absolute;
+    top: 37px;
+    right: 76px;
+}
+.banner-block-img :nth-child(7){
+    position: absolute;
+    bottom: 65px;
+    right: 418px;
+}
+.banner-block-img :nth-child(8){
+    position: absolute;
+    top: -25px;
+    right: 435px;
+}
+.banner-block-img :nth-child(9){
+    position: absolute;
+    top: -69px;
+    right: 100px;
+}
+.banner-block-img :nth-child(10){
+    position: absolute;
+    bottom: 24px;
+    left: -138px;
+}
+.banner-block-img :nth-child(11){
+    position: absolute;
+    top: 65px;
+    right: 274px;
+    z-index: 2;
+}
+.banner-block-img :nth-child(12){
+    position: absolute;
+    bottom: 129px;
+    right: 316px;
+    font-size: 28.6729px;
+}
+
+.wrap-title{
+    text-align: center;
+    margin: 70px 0;
+}
+.wrap-entertainment-block{
+    align-items: center;
+}
+.title{
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+h2{
+    font-weight:  Bold;
+    font-size: 64px;
+    display: inline-block;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(220.29deg, rgba(185, 60, 88, 0.94) 2.38%, rgba(145, 188, 85, 0.74) 63.9%);
+}
+.block-entertainment{
+    align-items: center;
+    background: linear-gradient(220.29deg, rgba(185, 60, 88, 0.94) 2.38%, rgba(145, 188, 85, 0.74) 63.9%);
+    border-radius: 16px;
+    margin-bottom: 45px;
+}
+.block-entertainment-img{
+    position: relative;
+}
+.block-entertainment-img img{
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.09);
+}
+.paid{
+    background: #AE2939;
+    opacity: 0.6;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #FFE6EA;
+    position: absolute;
+    padding: 6px 15px;
+    bottom: 21px;
+    right: 21px;
+}
+.free{
+    background: #91BC55;;
+    opacity: 0.6;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #FFE6EA;
+    position: absolute;
+    padding: 6px 15px;
+    bottom: 21px;
+    right: 21px;
+}
+.block-entertainment-content{
+    margin-left: 25px;
+    width: 416px;
+}
+.entertainment-content-text{
+    color: #FFFFFF;
+    padding: 25px 0 30px;
+    width: 75%;
+    height: 64px;
+    line-height: 32px;
+}
+.entertainment-content-time{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #FFE6EA;
+}
+
+.entertainment-content-time span{
+    padding-left: 123px;
+}
+.wrap-entertainment-banner{
+    justify-content: center;
+    margin-top: 45px;
+}
+.entertainment-pos{
+    position: absolute;
+}
+.entertainment-pos :nth-child(1){
+    position: relative;
+    top: -69px;
+    right: -935px;
+    z-index: -1;
+}
+.entertainment-pos :nth-child(2){
+    position: relative;
+    top: -156px;
+    right: -761px;
+}
+.entertainment-pos :nth-child(3){
+    position: relative;
+    top: -103px;
+    right: 535px;
+}
+.entertainment-pos :nth-child(4){
+    position: relative;
+    bottom: -487px;
+    right: -545px;
+}
+.entertainment-pos :nth-child(5){
+    position: relative;
+    bottom: -664px;
+    right: 783px;
+}
+.entertainment-pos :nth-child(6){
+    position: relative;
+    bottom: -759px;
+    right: -48px;
+}
+.entertainment-pos :nth-child(7){
+    position: relative;
+    top: -285px;
+    right: 292px;
+}
+.m_c-block{
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.m_c-pos{
+    position: relative;
+}
+.m_c-pos :nth-child(1){
+    position: absolute;
+    top: -100px;
+    left: 421px;
+}
+.m_c-pos :nth-child(2){
+    position: absolute;
+    top: 199px;
+    right: 374px;
+}
+.m_c-pos :nth-child(3){
+    position: absolute;
+    bottom: -940px;
+    left: 800px;
+}
+.m_c-pos :nth-child(4){
+    position: absolute;
+    bottom: -1089px;
+    left: 357px;
+}
+.m_c-block-baner{
+    border-radius: 16px;
+    padding: 20px 30px;
+    position: relative;
+    width: 592px;
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.09);
+}
+.color-first{
+    background: #AE2939;
+    margin-right: 40px;
+}
+.color-first :nth-child(1){
+    position: absolute;
+    top: 55px;
+    right: 77px;
+}
+.color-first :nth-child(2){
+    position: absolute;
+    top: 41px;
+    left: 2px;
+}
+.color-first :nth-child(3){
+    position: absolute;
+    top: -28px;
+    left: 128px;
+}
+.color-second{
+    background: #FDFFDB;
+    margin-left: 40px;
+}
+.color-second :nth-child(1){
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.color-second :nth-child(2){
+    position: absolute;
+    top: 122px;
+    left: 280px;
+}
+.color-second :nth-child(3){
+    position: absolute;
+    top: 130px;
+    left: 309px;
+}
+.color-third{
+    background: #FAFAFA;
+    margin-right: 40px;
+}
+.color-third :nth-child(1){
+    position: absolute;
+    top: 13px;
+    right: 131px;
+}
+.color-third :nth-child(2){
+    position: absolute;
+    top: -11px;
+    left: -19px;
+}
+.color-third :nth-child(3){
+    position: absolute;
+    top: 75px;
+    left: 57px;
+
+}
+.m_c-block-content-discounts{
+    font-size: 16px !important;
+}
+.m_c-block-content{
+    width: 381px;
+    margin: 30px 0 15px;
+}
+.m_c-block-content p{
+    font-style:italic;
+    font-weight:lighter;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.m_c-block-content span{
+    font-size: 33px;
+}
+.m_c-block-content-time{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.wrap-discounts-baner{
+    justify-content: center;
+}
+.wrap-discounts-baner :nth-child(1){
+    width: 280px;
+    background: #F2F2F2;
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    margin: 73px 72px;
+}
+.wrap-discounts-baner :nth-child(2){
+    width: 280px;
+    background: #172AA5;
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    margin: 73px 72px;
+}
+.wrap-discounts-baner :nth-child(3){
+    width: 280px;
+    background: #F2F2F2;;
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    margin: 73px 72px;
+}
+.wrap-discounts-baner :nth-child(4){
+    width: 280px;
+    background: #212126;;
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    margin: 73px 72px;
+}
+
+.last-block-title h2{
+    font-family: "Savoye" ;
+    font-size: 98px;
+    font-weight: normal;
+}
+.last-block-pos{
+    position: relative;
+}
+.last-block-pos :nth-child(1){
+    position: absolute;
+    top: -61px;
+    left: 418px;
+}
+.last-block-pos :nth-child(2){
+    position: absolute;
+    bottom: -154px;
+    left: 418px;
+}
+.last-block-pos :nth-child(3){
+    position: absolute;
+    bottom: -178px;
+    right: 418px;
+}
